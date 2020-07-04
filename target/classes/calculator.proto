@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "com.example.grpc";
+
+message calculation {
+    int32 parameter1 = 1;
+    int32 parameter2 = 2;
+    string operator = 3;
+}
+
+message Result{
+    int32 response = 1;
+}
